@@ -47,7 +47,7 @@
                         <span class="line line2" />
                         <span class="line line3" />
                     </div>
-                    <div class="menu-items rounded-md text-white text-lg">
+                    <div class="menu-items rounded-md text-white text-lg font-bold">
                         {#if $page.url.pathname === '/'}
                             <a class="mt-6 text-[#BFDFED]" href="/" >about</a>
                         {:else}
