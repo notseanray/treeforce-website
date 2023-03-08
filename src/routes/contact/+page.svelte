@@ -1,6 +1,6 @@
 <main class="m-[1%]">
-		<div class="text-[#ede4df] text-5xl pb-8">contact us</div>
-        <div class="flex justify-center">
+	<div class="text-[#ede4df] text-5xl pb-8">contact us</div>
+	<div class="flex justify-center">
 		<iframe
 			id="JotFormIFrame-230510286438150"
 			title="General Inquiry Contact Form"

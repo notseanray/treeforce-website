@@ -2,8 +2,8 @@
 </script>
 
 <main class="m-[1%]">
-    <div class="flex">
-        <div class="w-4/6">
+    <div class="flex flex-wrap">
+        <div class="">
             <div class="text-[#ede4df] text-5xl pb-8">how treeforce is using technology</div>
             <div class="text-xl pb-4 text-[#c8dbbf]">
                 As the ffects of climate change continue to impact our planet, it has become increasingly clear
@@ -30,10 +30,12 @@
                 sustainable energy sources that can help reduce carbon emissions.
             </div>
         </div>
-        <div class="flex flex-wrap justify-center px-2 py-16 bg-[#a08771]">
-            <img class="h-96" src="/tree.png" alt="" />
-            <div class="text-[#bfdfed] text-xl">
-                Standing tall and proud, this tree reminds us of the beauty and resilience of nature
+        <div class="flex justify-center">
+            <div class="align-middle justify-center px-2 py-16 bg-[#a08771]">
+                <img class="h-96" src="/tree.png" alt="" />
+                <div class="text-[#bfdfed] text-xl">
+                    Standing tall and proud, this tree reminds us of the beauty and resilience of nature
+                </div>
             </div>
         </div>
 	</div>
