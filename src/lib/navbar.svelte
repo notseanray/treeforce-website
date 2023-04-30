@@ -31,7 +31,9 @@
 
 <main>
     {#if mobile}
-        <img class="p-2 h-20" src="/treeforce_logo.png" alt="" />
+        <a class="mt-1 text-[#BFDFED]" href="/" >
+            <img class="p-2 h-20" src="/treeforce_logo.png" alt="" />
+        </a>
          <div class="text-[16px] inline m-4 content-center">
             <div class="navbar">
                 <div class="container nav-container mb-10">
@@ -79,7 +81,9 @@
         </div>
     {:else}
 	<div class="p-[1%] flex font-bold">
-		<img class="h-20" src="/treeforce_logo.png" alt="" />
+        <a class="mt-1 text-[#BFDFED]" href="/" >
+            <img class="h-20" src="/treeforce_logo.png" alt="" />
+        </a>
         <ul class="flex ml-8 text-2xl bg-[#a08771] text-[#ede4df] w-full navbar">
             {#if $page.url.pathname === '/'}
                 <a class="mt-6 text-[#BFDFED]" href="/" >about</a>
@@ -123,12 +127,14 @@
 .navbar .menu-items {
     z-index: 10;
     display: flex;
+    position: absolute;
+    top: 10vh;
 }
 .navbar .nav-container li {
     list-style: none;
 }
 .navbar .nav-container a {
-    padding: 0.7rem;
+    padding: 0.4rem;
 }
 .nav-container {
     display: block;
@@ -188,7 +194,7 @@
     margin-right: 0px;
 }
 .navbar .menu-items li {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.0rem;
 }
 .logo {
     position: absolute;
