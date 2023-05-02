@@ -34,7 +34,7 @@
         <a class="mt-1 text-[#BFDFED]" href="/" >
             <img class="p-2 h-20" src="/treeforce_logo.png" alt="" />
         </a>
-         <div class="text-[16px] inline m-4 content-center">
+         <div class="text-[16px] inline m-4 content-center text-xl">
             <div class="navbar">
                 <div class="container nav-container mb-10">
                     <input
@@ -84,7 +84,7 @@
         <a class="mt-1 text-[#BFDFED]" href="/" >
             <img class="h-20" src="/treeforce_logo.png" alt="" />
         </a>
-        <ul class="flex ml-8 text-2xl bg-[#a08771] text-[#ede4df] w-full navbar">
+        <ul class="flex ml-8 text-4xl bg-[#a08771] text-[#ede4df] w-full navbar">
             {#if $page.url.pathname === '/'}
                 <a class="mt-6 text-[#BFDFED]" href="/" >about</a>
             {:else}

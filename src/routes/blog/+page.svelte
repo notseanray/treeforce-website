@@ -30,13 +30,15 @@
                 sustainable energy sources that can help reduce carbon emissions.
             </div>
         </div>
-        <div class="flex justify-center">
-            <div class="align-middle justify-center px-2 py-16 bg-[#a08771]">
+	</div>
+    <div class="flex justify-center">
+        <div class="align-middle justify-center px-2 py-16 bg-[#a08771] p-4">
+            <div class="m-4">
                 <img class="h-96" src="/tree.png" alt="" />
                 <div class="text-[#bfdfed] text-xl">
                     Standing tall and proud, this tree reminds us of the beauty and resilience of nature
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </main>
