@@ -1,4 +1,4 @@
-<main class="m-[1%]">
+<main class="m-[5%]">
 	<div class="text-[#ede4df] text-5xl pb-8">contact us</div>
 	<div class="flex justify-center">
 		<iframe

@@ -2,7 +2,7 @@
     import { page } from '$app/stores';
     import { onMount, onDestroy } from "svelte";
     import { browser } from '$app/environment';
-    const MOBILE_WIDTH = 800;
+    const MOBILE_WIDTH = 1000;
     let mobile = false;
     if (browser) {
         const handleResize = (e) => {
@@ -81,7 +81,7 @@
         </div>
     {:else}
 	<div class="p-[1%] flex font-bold">
-        <a class="mt-1 text-[#BFDFED]" href="/" >
+        <a class="text-[#BFDFED]" href="/" >
             <img class="h-20" src="/treeforce_logo.png" alt="" />
         </a>
         <ul class="flex ml-8 text-4xl bg-[#a08771] text-[#ede4df] w-full navbar">
@@ -198,8 +198,8 @@
 }
 .logo {
     position: absolute;
-    top: 5px;
-    right: 15px;
+    top: 4px;
+    right: 5px;
     color: #fff;
 }
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
